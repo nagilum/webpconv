@@ -1,0 +1,10 @@
+.idea/
+
+WebPConv/bin/
+WebPConv/obj/
+
+WebPLib/bin/
+WebPLib/obj/
+
+*.user
+*.log

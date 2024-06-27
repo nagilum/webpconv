@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPConv", "WebPConv\WebPConv.csproj", "{6891BEC8-B04A-4943-BA7F-6BB7275176AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPLib", "WebPLib\WebPLib.csproj", "{C875342D-3D5E-438E-A465-E9AB86BFC434}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6891BEC8-B04A-4943-BA7F-6BB7275176AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6891BEC8-B04A-4943-BA7F-6BB7275176AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6891BEC8-B04A-4943-BA7F-6BB7275176AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6891BEC8-B04A-4943-BA7F-6BB7275176AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C875342D-3D5E-438E-A465-E9AB86BFC434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C875342D-3D5E-438E-A465-E9AB86BFC434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C875342D-3D5E-438E-A465-E9AB86BFC434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C875342D-3D5E-438E-A465-E9AB86BFC434}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
