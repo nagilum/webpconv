@@ -23,4 +23,9 @@ public interface IOptions
     /// Paths to read .webp files from.
     /// </summary>
     List<string> Paths { get; }
+    
+    /// <summary>
+    /// Get files recursively for each provided path.
+    /// </summary>
+    bool Recursive { get; set; }
 }

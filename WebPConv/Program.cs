@@ -33,7 +33,9 @@ public static class Program
                     Directory.GetFiles(
                         path,
                         "*.webp",
-                        SearchOption.TopDirectoryOnly));
+                        options.Recursive
+                            ? SearchOption.AllDirectories
+                            : SearchOption.TopDirectoryOnly));
             }
             catch (Exception ex)
             {
@@ -131,6 +133,7 @@ public static class Program
             "  -d|--delete            Delete the .webp file if it was successfully converted.",
             "  -f|--format <format>   Set output format. Can be either jpeg or png. Defaults to jpeg.",
             "  -o|--overwrite         Overwrite the output file if it already exists.",
+            "  -r|--recursive         Get files recursively for each provided path.",
             "",
             "Source and documentation available at https://github.com/nagilum/webpconv",
             ""
@@ -196,6 +199,11 @@ public static class Program
                 case "-o":
                 case "--overwrite":
                     options.Overwrite = true;
+                    break;
+                
+                case "-r":
+                case "--recursive":
+                    options.Recursive = true;
                     break;
                 
                 default:

@@ -23,4 +23,9 @@ public class Options : IOptions
     /// <inheritdoc cref="IOptions.Paths"/>
     /// </summary>
     public List<string> Paths { get; } = [];
+
+    /// <summary>
+    /// <inheritdoc cref="IOptions.Recursive"/>
+    /// </summary>
+    public bool Recursive { get; set; }
 }
